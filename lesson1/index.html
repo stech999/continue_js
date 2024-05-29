@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="btn">Купить</button>
+    <div class="content">
+
+    </div>
+    <img class="img" src="photo.jpg" alt="photo">
+    <script>
+        const imgEL = document.querySelector('.img');
+        imgEL.onclick = function () {
+            imgEL.src = 'newphoto.jpg';
+        }
+        const buttonEL = document.querySelector('.btn');
+        const contentEL = document.querySelector('.content');
+        // console.log(buttonEL);
+
+        const textEL = document.createElement('p');
+        textEL.textContent = 'Тут любой текст и его много';
+
+        buttonEL.onclick = function () {
+            buttonEL.textContent = 'Товар в корзине';
+            contentEL.appendChild(textEL);
+        }
+
+    </script>
+
+    <h1 class="title">Lorem ipsum dolor.</h1>
+    <h2 id="heading">Lorem ipsum dolor sit amet.</h2>
+    <ul class="ul">
+        <li class="list">text 1</li>
+        <li class="list">text 2</li>
+        <li class="list">text 3</li>
+    </ul>
+    <p class="text">Lorem ipsum dolor. 1</p>
+    <p class="text">Lorem ipsum dolor. 2</p>
+    <p class="text">Lorem ipsum dolor. 3</p>
+    <p class="text">Lorem ipsum dolor. 3</p>
+
+    <script>
+
+        // const titleEL = document.querySelector('.title');
+        // titleEL.textContent = 'Заголовок уже из JS';
+        // const heading2 = document.querySelector('#heading');
+        // heading2.remove();
+        // const list = document.querySelector('.list');
+        // console.log(list);
+        // const listEls = document.getElementsByClassName('list');
+        // console.log(listEls);
+        // const listElsQS = document.querySelectorAll('.list');
+        // console.log(listElsQS);
+        // const listElsBI = document.getElementById('list');
+        // console.log(listElsBI);
+        // const heading3 = document.querySelector('#heading');
+        // console.log(heading3);
+        // const heading = document.querySelector('.title');
+        // const text = document.querySelectorAll('.text');
+        // text.forEach(element => {
+        //     console.log(element);
+        // });
+
+    </script>
+</body>
+
+</html>
