@@ -10,14 +10,14 @@ fromEl.addEventListener('input', () => {
 // - добавить два класса: animate_animated и animate_fadeInLeftBig
 //     - поставить данному элементу стиль visibility в значение 'visible'.
 
-// ---------- решение без добавления класса в стили ----------
+// ---------- решение с добавлением класса в стили ----------
 // const messageBtnEl = document.querySelector('.messageBtn');
 // const messageEl = document.querySelector('.message');
 // messageBtnEl.addEventListener('click', () => {
 //     messageEl.classList.add('animate_animated', 'animate_fadeInLeftBig');
 // })
 
-// ---------- решение с добавлением класса в стили ----------
+// ---------- решение без добавления класса в стили ----------
 const messageBtnEl = document.querySelector('.messageBtn');
 const messageEl = document.querySelector('.message');
 messageBtnEl.addEventListener('click', () => {
