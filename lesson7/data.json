@@ -5,7 +5,11 @@
         "title": "MANGO PEOPLE T-SHIRT",
         "price": 300,
         "color": "red",
-        "size": ["XL", "L", "S"],
+        "size": [
+            "XL",
+            "L",
+            "S"
+        ],
         "quantity": 2
     },
     {
@@ -14,7 +18,9 @@
         "title": "ELLERY X M'O CAPSULE",
         "price": 100,
         "color": "black",
-        "size": ["L"],
+        "size": [
+            "L"
+        ],
         "quantity": 1
     }
 ]

@@ -73,7 +73,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const containerEl = document.querySelector('.container')
 
-
     data.forEach(el => {
 
         containerEl.insertAdjacentHTML("beforeend", `
@@ -89,7 +88,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <input class="product-input" type="number" value="${el.quantity}" min="1"></p>
         </div>
         <div>
-            <button class="close-btn">×</button>
+            <button class="close-btn">x</button>
         </div>
     </div>
         `)
