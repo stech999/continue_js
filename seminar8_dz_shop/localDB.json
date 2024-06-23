@@ -1,0 +1,90 @@
+[
+    {
+        "id": "item1",
+        "del": "del1",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1193.png",
+        "rating": "./img/1824.png",
+        "price": 52.00,
+        "delItem": "./img/1827.png",
+        "color": "Red",
+        "size": "S"
+    },
+    {
+        "id": "item2",
+        "del": "del2",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1201.png",
+        "rating": "./img/1824.png",
+        "price": 152.00,
+        "delItem": "./img/1827.png",
+        "color": "Blue",
+        "size": "L"
+    },
+    {
+        "id": "item3",
+        "del": "del3",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_3_1209.png",
+        "rating": "./img/1824.png",
+        "price": 452.00,
+        "delItem": "./img/1827.png",
+        "color": "Green",
+        "size": "M"
+    },
+    {
+        "id": "item4",
+        "del": "del4",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1240.png",
+        "rating": "./img/1824.png",
+        "price": 352.00,
+        "delItem": "./img/1827.png",
+        "color": "White",
+        "size": "X"
+    },
+    {
+        "id": "item5",
+        "del": "del5",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1248.png",
+        "rating": "./img/1824.png",
+        "price": 1052.00,
+        "delItem": "./img/1827.png",
+        "color": "Pink",
+        "size": "XL"
+    },
+    {
+        "id": "item6",
+        "del": "del6",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1256.png",
+        "rating": "./img/1824.png",
+        "price": 552.00,
+        "delItem": "./img/1827.png",
+        "color": "purple",
+        "size": "XXL"
+    },
+    {
+        "id": "item7",
+        "del": "del7",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1264.png",
+        "rating": "./img/1824.png",
+        "price": 752.00,
+        "delItem": "./img/1827.png",
+        "color": "orange",
+        "size": "XXXL"
+    },
+    {
+        "id": "item8",
+        "del": "del8",
+        "title": "Mango People T-shirt",
+        "img": "./img/rectangle_5_copy_1272.png",
+        "rating": "./img/1824.png",
+        "price": 952.00,
+        "delItem": "./img/1827.png",
+        "color": "haske",
+        "size": "XXXXL"
+    }
+]

@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div>
             <button class="close-btn">x</button>
         </div>
-    </div>
+        </div>
         `)
 
     });
